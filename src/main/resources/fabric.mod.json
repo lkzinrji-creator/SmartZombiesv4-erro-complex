@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "id": "zombie_ai",
+  "version": "${version}",
+  "name": "Zombie AI Evolution",
+  "description": "Zombies harvest wood, craft, equip gear, hunt and break blocks while pathfinding.",
+  "authors": ["OpenAI"],
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": { "main": ["com.zombieai.ZombieAiMod"] },
+  "depends": {
+    "fabricloader": ">=0.19.5",
+    "minecraft": "26.3",
+    "java": ">=25",
+    "fabric-api": "*"
+  }
+}
